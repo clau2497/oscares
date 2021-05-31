@@ -1,0 +1,60 @@
+#imginfo {
+    width: 25%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: contain;
+
+}
+
+.p {
+    text-align: justify;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.container button {
+    display: block;
+
+}
+
+#card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 35px;
+    text-align: justify;
+    pointer-events: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#text {
+    text-align: justify;
+    -webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+    hyphens: auto;
+    margin: 25px;
+    margin-left: 35px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 767px) {
+    #text {
+        width: 80%;
+        display: block;
+
+    }
+
+
+}
